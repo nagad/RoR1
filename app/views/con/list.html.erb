@@ -1,0 +1,18 @@
+<h1>商品リスト</h1>
+<table border="1">
+	<tr>
+		<th>No</th>
+		<th>商品名</th>
+		<th>価格</th>
+		<th>説明</th>
+	</tr>
+	<% @shohin.each.with_index(1) do |set, i| %>
+	<tr>
+		<th><%= "#{i}" %></th>
+		<th><%= set.item %></th>
+		<th><%= set.price %></th>
+		<th><%= set.note %></th>
+	</tr>
+	<% end %>
+
+</table>
