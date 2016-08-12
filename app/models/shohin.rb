@@ -1,0 +1,2 @@
+class Shohin < ApplicationRecord
+end

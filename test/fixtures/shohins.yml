@@ -1,0 +1,26 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: Bic Japan pen
+  price: 500
+  note: convinience pen.
+
+two:
+  item: コクヨ　キャンパスノート
+  price: 200
+  note: 美しい日本語
+
+three:
+  item: コクヨ　定規
+  price: 140
+  note: explain in english.
+
+four:
+  item: Zebra クリップ
+  price: 170
+  note: 耐水性、耐光性に優れた新開発の特許取得済みボールペン
+
+five:
+  item: suntry water
+  price: 800
+  note: ぼったくり天然水。
